@@ -43,6 +43,7 @@ function App() {
       value={peso}
       onChangeText={ (peso) =>  setPeso(peso)}
       placeholder='Peso (kg) Ex: 90'
+      placeholderTextColor="#fff"
       keyboardType='numeric'
         />
       <TextInput
@@ -50,6 +51,7 @@ function App() {
       value={altura}
       onChangeText={ (altura) =>  setAltura(altura)}
       placeholder='Altura (cm) Ex: 180'
+      placeholderTextColor="#fff"
       keyboardType='numeric'
         />
 
@@ -80,7 +82,7 @@ const styles = StyleSheet.create({
     color: 'black'
   },
   input: {
-    backgroundColor: 'lightgray',
+    backgroundColor: '#121212',
     borderRadius: 10,
     margin: 15,
     padding: 10,
